@@ -32,14 +32,35 @@ Note : I have taken help of chatGPT for the table structure but not for the cont
 7. I can checkout with a empty cart , it should not
 8. Reset App state
    - After adding a product to the cart, when I click "Reset app state" in the Menu , it clears the item from the cart but the "Remove" button for that particular item stays 
-   
+
  <br>    
 
 
 2: Automated Test Cases  <br>
 -> I have automated only 2 test cases based on my current knowledge because I'm still on my learning phase<br>  
-TC_01 - Valid login<br>
-TC_02 - Invalid Login
+01 - Valid login<br>
+02 - Invalid Login
+<br>
+
+3: How to Install Dependencies
+
+1. Install Node.js
+2. Clone the repository
+3. Run the following command:
+    - npm install
+
+4. Install Playwright browsers:
+    - npx playwright install
+
+4: Run Test Cases 
+   - npx playwright test
+
+5: Assumption made
+   - Saucedemo website is stable and working fine
+   - Username and password are proper
+   - Tests are executed on desktop browser
+
+ 
 
 
 
